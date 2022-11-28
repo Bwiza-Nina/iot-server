@@ -32,3 +32,4 @@ if(!empty($data->name) && !empty($data->description) && !empty($data->price) && 
     http_response_code(400);
     echo json_encode(array("message" => "Unable to create item. Data is incomplete"));
 }
+?>
